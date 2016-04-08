@@ -36,6 +36,7 @@ object Test extends App {
 //TODO: Data Structures: Lists and Maps
 //TODO: Flow Control: if, for, map, flatMap, forEach, fold, Pattern Matching (principles), recursion and tail recursio
 //TODO: Case Class
+//TODO: val e var nos parametros
 //TODO: Companion Objects
 //TODO: More Pattern Matching 
 //TODO: apply method
