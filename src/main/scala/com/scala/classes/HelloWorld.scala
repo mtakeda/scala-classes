@@ -1,50 +1,38 @@
 package com.scala.classes
 
-class HelloWorld {
+
+class HelloWorld(param: Int) {
+  
+	val x = { println("TESTE"); 10 }
+		
+	def mult(p1: Int) = {
+	  p1
+	}
+
+	
+}
+
+object Test extends App {
+  
+  def x = { println("TESTE2"); 10 }
+  
+  val hw = new HelloWorld(42)
+  val hw2 = new HelloWorld(423)
+
+  val y = x
+  
+  println(x)
+  println(x)
+
   
 }
 
-
-//TODO: declaracao de classes
-//TODO: object
-//TODO: método "main" com a mensagem Hello World
-//TODO: declaracao de variaveis (val e var)
-//TODO: construtores e valores default
-//TODO: declaracao de métodos
-//TODO: no "return"
-//TODO: tudo é um objeto, inclusive as funções
-//TODO: mais de uma classe por arquivo
-//TODO: arquivo e classe nao precisam ter o mesmo nome
-//
-//TODO: task:
-/* 
- * Implementar a Classe MyInt que recebe um inteiro e possui as seguintes funções
- * add(MyInt): MyInt
- * add(Int): MyInt
- * sub(MyInt): MyInt
- * sub(Int): MyInt   
- * mult(MyInt): MyInt
- * mult(Int): MyInt
- * div(MyInt): MyInt
- * div(Int): MyInt
- * 
- * Imprimir o resultado de 1 add 2 mult 3, com e sem os parenteses
- */
-//TODO: extra task :
-/*
- * criar outros metodos com os operadores tradicionais (*, -, /)
- * verificar o comportamento da mesma expressão com e sem parenteses. Por que isso acontece?
- * ver o mesmo com inteiros tradicionais 
- * 
- * repetir com métodos terminados com :
- */
- //TODO: extra task 2 :
-/*
- * usar implicits e trabalhar com inteiros diretamente ao invés do MyInt (com os métodos add, sub, mult, div)
- * 
- */
  
 //TODO: proximas aulas
+//TODO: verificar os resultados obtidos do exercício anterior (parte 2) e explicar a precedência de operadores
+//TODO: mostrar um exemplo sem o extends APP
+//TODO: repassar a questao do cache de def X val
+
 //TODO: Data Structures: Lists and Maps
 //TODO: Flow Control: if, for, map, flatMap, forEach, fold, Pattern Matching (principles), recursion and tail recursio
 //TODO: Case Class
@@ -52,4 +40,4 @@ class HelloWorld {
 //TODO: More Pattern Matching 
 //TODO: apply method
 //TODO: Optional (Some, None)
-//TODO:
+//TODO: partial function
