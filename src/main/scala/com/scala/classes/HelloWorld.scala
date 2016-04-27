@@ -32,12 +32,12 @@ object Test extends App {
 //TODO: verificar os resultados obtidos do exercício anterior (parte 2) e explicar a precedência de operadores
 //TODO: mostrar um exemplo sem o extends APP
 //TODO: repassar a questao do cache de def X val
-
 //TODO: Data Structures: Lists and Maps
 //TODO: Flow Control: if, for, map, flatMap, forEach, fold, Pattern Matching (principles), recursion and tail recursio
 //TODO: Case Class
 //TODO: val e var nos parametros
 //TODO: Companion Objects
+//TODO: String interpolation
 //TODO: More Pattern Matching 
 //TODO: apply method
 //TODO: Optional (Some, None)
