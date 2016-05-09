@@ -23,8 +23,10 @@ object PatternMatching extends App {
 
 
 /*
+- mostrar diferença entre val e def
+
 - Exercício (antes de mostrar case class e patter matching)
-	- criar uma classe casa que receba dois atributos: rua: String, número: Int
+	- criar uma classe Casa que receba dois atributos: rua: String, número: Int
 	- fazer um metodo que receba duas casas e retorne "Mesmo Endereço" se elas tiverem o mesmo endereço (rua e número) ou "Diferentes" em caso contrário
 	- incrementar esse método para retornar "Mesma Rua" se ela tiver apenas a rua igual
 	- incrementar esse método para retornar "Mesmo número" se ela tiver apenas a rua igual
@@ -48,3 +50,15 @@ object PatternMatching extends App {
  - Exercício:
  	- repetir o exercício, usando case class e pattern matching
 */
+
+// próximas aulas
+//TODO: Data Structures: Lists and Maps
+//TODO: Flow Control: if, for, map, flatMap, forEach, fold, Pattern Matching (principles), recursion and tail recursio
+//TODO: Case Class
+//TODO: val e var nos parametros
+//TODO: Companion Objects
+//TODO: String interpolation
+//TODO: More Pattern Matching 
+//TODO: apply method
+//TODO: Optional (Some, None)
+//TODO: partial function
